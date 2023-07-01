@@ -1,0 +1,118 @@
+header{
+   background-image: url("./1781.jpg");
+
+    background-color: transparent;
+    background-size:cover;
+    height: 30rem;
+    padding:8rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#aboutUs{
+    height: 35rem;
+    background-image: url("./abstract-background-with-texture-old-paper_196038-4095.jpeg");
+    background-color: transparent;
+    background-size:cover;
+    padding:8rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+:root{
+    --templateBgColor:#212529;
+}
+
+
+.dark_mode{
+    background-color: var(--templateBgColor);
+    color: #ffffff;
+}
+.myHeading{
+    color: #212529;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-shadow:1px 1px 9px #212529 ;
+}
+
+.myHeading-light{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-shadow:1px 1px 9px #ffffff ;
+}
+.heading{
+    color: #212529;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-shadow:1px 1px 9px #212529 ;
+}
+.tech-stack{
+    color: #212529;
+}
+.tech-stack-light{
+    color: #ffffff;
+}
+
+#techStack i{
+font-size: 5rem;
+}
+
+.fSize1 {
+    font-size: 1rem;
+    /* 15*1 */
+}
+
+.fSize2 {
+    font-size: 2rem;
+    /* 15*1 */
+}
+
+.fSize3 {
+    font-size: 3rem;
+    /* 15*1 */
+}
+
+.fSize4 {
+    font-size: 4rem;
+    /* 15*1 */
+}
+
+/* Line-clamp */
+.line-clamp4{
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden; 
+}
+
+.line-clamp5{
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden; 
+}
+
+.line-clamp8{
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden; 
+}
+
+.line-clamp10{
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden; 
+}
+
+.line-clamp20{
+    -webkit-line-clamp: 20;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden; 
+}
