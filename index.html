@@ -27,7 +27,7 @@
   <title>Daniel</title>
 </head>
 
-<body class="bg-light" data-bs-spy="scroll" data-bs-target="#navbar" scrollspy-example data-bs-offset="50">
+<body class="bg-light" data-bs-spy="scroll" data-bs-target="#navbar" scrollspy-example data-bs-offset="0">
 
   <!-- nav start codes -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-lg bg-light p-3 fixed-top">
@@ -70,17 +70,17 @@
           <button class="btn btn-outline-dark" type="submit">Search</button>
         </form>
         <ul class="navbar-nav float-start p-3">
-          <li class="nav-item dropdown pe-3">
+          <li class="nav-item dropdown pe-5 ">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fa-sharp fa-solid fa-globe"></i>
             </a>
-            <ul class="dropdown-menu">
-              <li class="dropdown-item">Turkish</li>
+            <ul class="dropdown-menu ">
+              <li class="dropdown-item w-100">Turkish</li>
 
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li class="dropdown-item">English</li>
+              <li class="dropdown-item w-100">English</li>
 
 
             </ul>
@@ -125,20 +125,7 @@
     </div>
   </div>
 
-  <script>
-    var modalId = document.getElementById('modalId');
-
-    modalId.addEventListener('show.bs.modal', function (event) {
-      // Button that triggered the modal
-      let button = event.relatedTarget;
-      // Extract info from data-bs-* attributes
-      let recipient = button.getAttribute('data-bs-whatever');
-
-      // Use above variables to manipulate the DOM
-    });
-  </script>
-
-
+ 
 
   <header id="header_id">
     <div class="text-dark ">
