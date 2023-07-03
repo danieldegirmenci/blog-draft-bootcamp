@@ -27,6 +27,9 @@ body{
 :root{
     --templateBgColor:#212529;
 }
+label{
+    padding: 2% 0;
+}
 
 
 
