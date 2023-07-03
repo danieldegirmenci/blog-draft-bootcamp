@@ -3,7 +3,7 @@ header{
 
     background-color: transparent;
     background-size:cover;
-    height: 35rem;
+    height: 40rem;
     padding:8rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,12 +19,22 @@ header{
     background-attachment: fixed;
 }
 
-
+body{
+    text-align:justify;
+ 
+}
 
 :root{
     --templateBgColor:#212529;
 }
+footer{
+    border-top: 2px solid #212529;
+}
+footer{
+    border-top: 2px solid #ffffff;
 
+
+}
 
 .dark_mode{
     background-color: var(--templateBgColor);
@@ -36,6 +46,10 @@ header{
     margin-bottom: 2rem;
     text-transform: uppercase;
     text-shadow:1px 1px 9px #212529 ;
+}
+#newspaper{
+margin: 15px;
+    box-shadow:1px 1px 30px #212529 ;
 }
 
 .myHeading-light{
@@ -61,6 +75,9 @@ header{
 
 #techStack i{
 font-size: 5rem;
+}
+#techStack{
+   padding: 100px 0;
 }
 
 .fSize1 {
