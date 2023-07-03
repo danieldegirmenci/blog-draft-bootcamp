@@ -27,14 +27,8 @@ body{
 :root{
     --templateBgColor:#212529;
 }
-footer{
-    border-top: 2px solid #212529;
-}
-footer{
-    border-top: 2px solid #ffffff;
 
 
-}
 
 .dark_mode{
     background-color: var(--templateBgColor);

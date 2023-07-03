@@ -10,6 +10,11 @@ function darkMode() {
     // $('.line-clamp4').toggleClass('text-dark text-light');
     // $('h4').toggleClass('text-dark text-light');
     $(".card").toggleClass('bg-dark bg-light')
+    $("#footer_id").toggleClass('bg-light bg-dark');
+    $("#footer_id").toggleClass('text-light text-dark');
+
+
+
     
 
   }
