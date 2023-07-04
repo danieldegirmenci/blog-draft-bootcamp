@@ -5,6 +5,8 @@ function darkMode() {
     $('p').toggleClass('text-dark text-light');
     $('.darkToggle').toggleClass('btn-dark btn-light')
     $('.btn').toggleClass('btn-outline-dark btn-outline-light');
+    $('h4').toggleClass('text-dark text-light');
+
     $('h2').toggleClass('myHeading myHeading-light');
     $('.card-title').toggleClass('myHeading myHeading-light')
     // $('.line-clamp4').toggleClass('text-dark text-light');
@@ -21,7 +23,10 @@ function darkMode() {
   
   let newDate=()=>{
     const date=new Date().getFullYear();
-
-$("#date_id").html(date);
+    $("#date_id").html(date);
 }
-newDate()
+newDate();
+
+$(document).ready(function() {
+  $('body').scrollspy({ target: '#navbar' });
+});

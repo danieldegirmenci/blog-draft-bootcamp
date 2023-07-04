@@ -14,7 +14,7 @@ header{
     background-image: url("./abstract-background-with-texture-old-paper_196038-4095.jpeg");
     background-color: transparent;
     background-size:cover;
-    padding:8rem;
+    padding-top:8rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -44,10 +44,7 @@ label{
     text-transform: uppercase;
     text-shadow:1px 1px 9px #212529 ;
 }
-#newspaper{
-margin: 15px;
-    box-shadow:1px 1px 30px #212529 ;
-}
+
 
 .myHeading-light{
     color: #ffffff;
@@ -56,6 +53,11 @@ margin: 15px;
     text-transform: uppercase;
     text-shadow:1px 1px 9px #ffffff ;
 }
+
+#newspaper{
+   
+        box-shadow:1px 1px 20px #212529 ;
+    }
 .heading{
     color: #212529;
     text-align: center;
